@@ -1,4 +1,405 @@
 @charset "UTF-8";
+
+/* Código CSS de LOCALSTORAGE (MIEMBROS 3A GLOB */
+
+
+#frm_login{
+  background:lightgray;
+  width:600px;
+}
+
+
+#login_title{
+
+  align-items: center;
+  font-family: sans-serif;
+  font-weight: bold;
+  padding: 80px;
+  color: black;
+  
+}
+
+#frm_login,#frm_registro{
+  /*display:none;*/
+  border:1px solid lightgrey;
+  border-radius:10px;
+  padding:10px;
+  margin:5px auto;
+}
+
+#frm_registro{
+
+  display:flex;
+  flex-direction:row;
+  justify-content:center;
+  width: 1300px;
+  height: 740px;
+  align-items: center;
+
+}
+
+.primera_parte{
+
+  margin-left:20px;
+  padding-top:30px;
+
+}
+
+.segunda_parte{
+
+  margin-left:20px;
+  padding-top:30px;
+
+}
+
+#btn_enviar_registrar{
+  margin-left:160px;
+  margin-top:25px;
+  background-color:  #117A65;
+  border: solid black;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: black;
+  align-items: center;
+
+}
+
+body,html{
+  width:100%;
+  height:100%;
+  margin:0;
+  padding:0;
+}
+#home{
+  position:absolute;
+  top:0px;
+  left:0px;
+  width:100%;
+  height:100%;
+  background:lightslategray;
+}
+#frm_login h5{
+  text-align:center;
+}
+
+#frm_login div{
+  margin-top:20px;
+  font-size:12px;
+  text-align:center;
+}
+
+.ocultar{
+  display:none !important;
+}
+
+#sec_registro1{
+
+display: block;
+width: 60%;
+height: 100%;
+background-color: lightgray;
+border: solid #117A65;
+  
+}
+
+#sec_registro2{
+
+  display: block;
+  width: 60%;
+  height: 100%;
+  background-color: lightgray;
+  border: solid #117A65;
+    
+  }
+
+#localstorage{
+  
+  display: flex;
+  width: 100%;
+  height: 800px;
+  background-color:  #117A65;
+  align-items: center;
+  padding: 30px;
+  margin: 20px auto;
+  margin-left: 10px auto;
+  font-family: sans-serif;
+  color: black;
+  border: solid #117A65;
+  
+}
+
+/*#div_title_ls{
+  
+  display: block;
+  width: 94%;
+  height: 300px;
+  border: 3px solid darkblue;
+  align-items: center;
+  justify-items: center;
+  position: center;
+  padding: 60px;
+  margin: 80px;
+  margin-left: 80px;
+  font-family: arial;
+  
+}
+
+#div_btns{
+  
+  display: flex;
+  width:100%;
+  height: 240px;
+  padding: 10px;
+  margin: 4px;
+  margin-left: 4px;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: rgb(255,255,255);
+  
+}
+
+#div_relleno{
+
+  width:4%;
+  height: 240px;
+
+}
+
+
+
+#div_user{
+  
+  display: flex;
+  width: 42%;
+  height: 120px;
+  border: 2px solid rgb(253, 255, 255);
+  align-items: center;
+  position: center;
+  padding: 20px;
+  margin:10px;
+  border-radius: 10px;
+  
+}
+
+#div_key{
+  
+  display: flex;
+  width: 42%;
+  height: 120px;
+  border: 2px solid rgb(253, 255, 255);
+  align-items: center;
+  position: center;
+  padding: 20px;
+  margin:10px;
+  border-radius: 10px;
+  
+}
+
+#div_signup{
+  
+  display: flex;
+  width: 20%;
+  height: 120px;
+  border: 2px solid rgb(253, 255, 255);
+  align-items: center;
+  position: center;
+  padding: 20px;
+  margin:10px;
+  border-radius: 10px;
+  margin: 20px;
+  
+}
+
+#div_login{
+  
+  display: flex;
+  width: 20%;
+  height: 120px;
+  border: 2px solid rgb(253, 255, 255);
+  align-items: center;
+  position: center;
+  padding: 20px;
+  margin:10px;
+  border-radius: 10px;
+  margin: 20px;
+  
+}
+
+#btn_registro{
+
+  width: 180px;
+  height: 90px;
+  background-color: gray;
+  border-radius: 10px;
+  border-color: rgb(253, 255, 255);
+  font-weight: 8px bold;
+  font-size: x-large;
+  align-items: center;
+  padding: 15px;
+  margin: 7px;
+}
+
+#btn_login{
+
+  width: 180px;
+  height: 90px;
+  background-color: gray;
+  border-radius: 10px;
+  border-color: rgb(253, 255, 255);
+  font-weight: 8px bold;
+  font-size: x-large;
+  align-items: center;
+  padding: 15px;
+  margin: 7px;
+
+}*/
+
+
+#btn_suscripcion{
+
+  font-size: xx-large;
+  font-weight: 6px bold;
+  background-color: gray;
+  color: white;
+
+}
+
+#tabla{
+
+    border: solid white;
+    margin: 0px auto;
+    padding: 8px; 
+
+}
+
+
+/* Código CSS de ACTIVIDAD SEIS - TABLA */
+
+.grupo{
+  
+  width: 800px;
+  position:relative;
+  text-align:center;
+  margin: 0 auto;
+  font-family: sans-serif;
+  color: darkblue;
+  font-weight: bold;
+
+  } 
+
+#tr{
+  
+  width:120px;
+  height: 20px;  
+  
+}  
+  
+.equipo{
+  
+  width:120px;
+  text-align: left;
+  line-height: 10px;
+  
+}
+
+.equipo img{
+  
+  margin-left:5px;
+  margin-right:10px;
+}
+
+td{
+  
+  border-top: 2px solid darkblue;
+  height: 30px;
+  
+}
+
+
+  #td_ppal{
+    
+    width: 200px;
+    padding: 4px 10px 10px 4px;
+  
+}
+
+.fila:hover{
+  
+  
+  width: 120px;
+  background: lightgray;
+  cursor: pointer;
+  
+}
+
+th{
+  
+  width: 100px;
+  height: 10px;
+  padding: 4px 10px 10px 4px;
+    
+}
+
+#th_title{
+  
+   width: 100px;
+  
+}
+
+.equipo::before{
+  
+  position:absolute;
+  top:0px;
+  left:0px;
+  content:"";
+  width:30px;
+  height: 20px;
+  background:darkgray;
+  z-index:-2;
+  border-radius: 20px;
+  border: solid darkgray;
+  
+}
+
+#ai_icon{
+  
+   width: 100px; 
+   height: 100px;
+   padding: 22px;
+   /*left: 10px;*/
+  
+}
+
+#bc_icon{
+  
+   width: 100px; 
+   height: 100px;
+   padding: 22px;
+   left: 10px;
+  
+}
+
+#bd_icon{
+  
+   width: 100px; 
+   height: 100px;
+   padding: 22px;
+   left: 10px;
+     
+}
+
+#otechs_icon{
+  
+   width: 100px; 
+   height: 100px;
+   padding: 22px;
+   
+}
+
+
+/* Código CSS de ACTIVIDAD CINCO - VALIDACIÓN FORMULARIO Y COLORES EN SITIO */
+
+
 section {
   background-color: #ffffff;
 }
